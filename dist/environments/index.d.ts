@@ -1,0 +1,15 @@
+declare const NODE_ENV: string;
+declare const CLIENT_HOST: string;
+declare const AUTHOR: string;
+declare const PRIMARY_COLOR: string;
+declare const DOMAIN: string;
+declare const PORT: number;
+declare const END_POINT: string;
+declare const RATE_LIMIT_MAX: number;
+declare const GRAPHQL_DEPTH_LIMIT: number;
+declare const TYPEORM_MAIN: any;
+declare const TYPEORM_ADDITIONAL: any;
+declare const JWT_SECRET: string;
+declare const JWT_REFRESH_SECRET: string;
+declare const BCRYPT_SALT: number;
+export { NODE_ENV, CLIENT_HOST, AUTHOR, PRIMARY_COLOR, DOMAIN, PORT, END_POINT, RATE_LIMIT_MAX, GRAPHQL_DEPTH_LIMIT, JWT_SECRET, JWT_REFRESH_SECRET, BCRYPT_SALT, TYPEORM_MAIN, TYPEORM_ADDITIONAL, };
